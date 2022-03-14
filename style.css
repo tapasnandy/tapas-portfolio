@@ -3,7 +3,14 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 45px;
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+    width: 85%;
 }
 .name-orange{
     color: orange;
@@ -13,23 +20,65 @@ h1{
     display: flex;
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 120px;
 }
 
 .half-width{
     width: 50%;
-    padding: 10px 40px;
+    padding: 10px 30px;
+    
+    
     
 }
 
 .half-width img{
     width: 80%;
+    
 }
 
-#hire-me-btn{
+.btn{
     text-decoration: none;
     background-color: rgb(228, 87, 62);
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
 
+}
+
+#big-dream-sec{
+    display: flex;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+    
+}
+#big-dream-sec a{
+    background-color: rgb(255, 136, 0);
+}
+
+#box-area{
+    display: flex;
+}
+
+.developer-area{
+    width: 35%;
+    margin-left: 5%;
+    
+    box-shadow: 2px 5px 15px grey;
+    padding-left: 40px;
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+
+}
+.experience-sec{
+    margin-bottom: 120px;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p{
+    text-align: center;
 }
